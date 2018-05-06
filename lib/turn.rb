@@ -25,9 +25,3 @@ end
 def turn(board)
   puts "Please enter 1-9:"
 end
-
- user_input = 0
-    until [1,2,3,4,5,6,7,8,9].include? user_input do
-        puts "Please enter 1-9>" 
-        user_input = gets.chomp.to_i
-    end
