@@ -23,14 +23,6 @@ def move(board, index,character="X")
 end
 
 def turn(board)
- 
-user_input = " "
-until (user_input == 1 or user_input == 2
-user_input == 3 or user_input == 4
-user_input == 5 or user_input == 6
-user_input == 7 or user_input == 8
-user_input == 9)
-    puts ""Please enter 1-9:" 
-    user_input = gets.chomp.to_i
+  puts "Please enter 1-9:"
 end
-end 
+
