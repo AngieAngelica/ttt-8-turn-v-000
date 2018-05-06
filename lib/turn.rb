@@ -32,8 +32,11 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index)
     display_board(board)
+    
+    
   else
-    turn(board)
+    turn(board) #asks player for the prompt again
+    
   end
 end
 
