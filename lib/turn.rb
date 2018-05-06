@@ -25,3 +25,9 @@ end
 def turn(board)
   puts "Please enter 1-9:"
 end
+
+user_input = " "
+until (user_input == 1 or user_input == 2)
+    puts "Please enter a valid number." 
+    user_input = gets.chomp.to_i
+end
